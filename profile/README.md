@@ -71,10 +71,10 @@ Clone & build:
 
 Example usage:
     # Perform static analysis on a binary
-    ferriscope analyze ./target_binary
+    ferriscope -i ./target_binary
 
     # Generate JSON report
-    ferriscope analyze ./target_binary --output report.json
+    ferriscope --input ./target_binary --report report.json
 
 ------------------------------------------------------------
 🧱 Dependencies
