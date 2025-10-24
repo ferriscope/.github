@@ -49,11 +49,11 @@ Planned Features:
 ------------------------------------------------------------
 🧩 Architecture Overview
 ------------------------------------------------------------
-
+```
 ferriscope/
 ├── ferriscope-core/    # Core library (binary parsing, disassembly, hooks)
 └── ferriscope/         # CLI frontend
-
+```
 Core Layer (ferriscope-core)
     Provides static analysis, binary introspection, and common data types.
 
