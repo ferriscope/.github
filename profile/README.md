@@ -65,11 +65,14 @@ CLI Layer (ferriscope)
 ------------------------------------------------------------
 
 Clone & build:
+```
     git clone https://github.com/ferriscope/ferriscope.git
     cd ferriscope
     cargo build --release
+```
 
 Example usage:
+
     # Perform static analysis on a binary
     ferriscope -i ./target_binary
 
