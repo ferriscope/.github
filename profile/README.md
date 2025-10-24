@@ -47,11 +47,11 @@ The official CLI profiler powered by `ferriscope-core`.
 ---
 
 ## 🧩 Architecture Overview
-
+```
 ferriscope/
 ├── ferriscope-core/ # Core library (binary parsing, disassembly, hooks)
 └── ferriscope/ # CLI frontend
-
+```
 - **Core Layer (`ferriscope-core`)**  
   Provides static analysis, binary introspection, and common data types.
 
